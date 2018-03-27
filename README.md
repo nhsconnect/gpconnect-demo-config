@@ -1,4 +1,4 @@
-<img src="nginx-html/nhs-digital-logo.png" height=72>
+<img src="nginx-html/nhs-digital-logo.png" height=72 />
 
 # GP Connect demonstrator machine config
 
@@ -11,4 +11,4 @@ It configures multiple versions of the following projects into a single web port
 
 ## Screenshot
 
-<img src="screenshot.png" height=72>
+<img src="screenshot.png" />
