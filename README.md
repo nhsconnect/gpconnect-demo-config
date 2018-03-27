@@ -1,6 +1,14 @@
 <img src="nginx-html/nhs-digital-logo.png" height=72>
 
-# GP Connect demonstrator nginx multi-instance config
+# GP Connect demonstrator machine config
 
-This README contains configuration and associated files for running multiple demonstrator instances from a single host using nginx.
+This repository contains configuration and associated files for running multiple demonstrator and swagger instances from a single host.
 
+It configures multiple versions of the following projects into a single web portal using nginx:
+
+https://github.com/nhsconnect/gpconnect-demonstrator
+https://github.com/nhsconnect/gpconnect-swagger
+
+## Screenshot
+
+<img src="screenshot.png" height=72>
