@@ -6,8 +6,8 @@ This repository contains configuration and associated files for running multiple
 
 It configures multiple versions of the following projects into a single web portal using nginx:
 
-https://github.com/nhsconnect/gpconnect-demonstrator
-https://github.com/nhsconnect/gpconnect-swagger
+- https://github.com/nhsconnect/gpconnect-demonstrator
+- https://github.com/nhsconnect/gpconnect-swagger
 
 ## Screenshot
 
