@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GP Connect demonstrator</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+	
+			<div class="header-logo"><img src="nhs-digital-logo.png"/></div>
+
+			<h1>GP Connect demonstrator</h1>
+
+			<p>The GP Connect demonstrator is:
+			<ul>
+				<li>a reference implementation of the <a href="https://nhsconnect.github.io/gpconnect/">GP Connect API</a></li>
+				<li>a consumer system demonstrator built against the reference implementation</li>
+				<li>interactive API documentation for developers to test calls to the reference implementation</li>
+			</ul>
+			</p>
+
+			<p>Note: GP Connect is an <a href="http://www.hl7.org/fhir">FHIR&reg;</a> based API for communicating with GP IT systems.  For more information on GP Connect please see the <a href="https://nhsconnect.github.io/gpconnect/">GitHub development portal</a>.</p>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="left-column-content">
+
+						<h2>Consumer system demonstrator</h2>
+						
+						<p>The consumer system demonstrator illustrates how the GP Connect API might be integrated with an electronic patient record (EPR) or Trust portal system.</p>
+					
+						<p>
+							<a href="v0"><button type="button" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect 0.x (DSTU2)</b></button></a>
+							<a href="v1"><button type="button" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect 1.x (STU3)</b></button></a>
+						</p>
+
+						<br/>
+						
+						<div class="panel panel-default">
+							<div class="panel-heading">Consumer system demonstrator screenshot</div>
+							<div class="panel-body">
+								<img class="img-responsive" src="consumer-demonstrator.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="right-column-content">
+
+						<h2>Reference implementation</h2>
+
+						<p>To interoperate with the reference implementation using your own development/test environment, use the following FHIR base URLs:</p>
+						
+						<table class="base-urls">
+							<tr>
+								<td>GP Connect 0.x (DSTU2)</td>
+								<td><a href="//orange.testlab.nhs.uk/v0/fhir">https://orange.testlab.nhs.uk/v0/fhir</a></td>
+							</tr>
+							<tr>
+								<td>GP Connect 1.x (STU3)</td>
+								<td><a href="//orange.testlab.nhs.uk/v1/fhir">https://orange.testlab.nhs.uk/v1/fhir</a></td>
+							</tr>
+						</table>
+						
+						<hr/>
+						
+						<h2>Interactive API documentation</h2>
+
+						<p>Interactive API documentation, built using <a href="https://swagger.io/swagger-ui/">Swagger UI</a>, is available for developers to test calls against the reference implementation using their web browser.</p>
+						
+						<p>
+							<a href="swagger/v0"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 0.x (DSTU2)</b></button></a>
+							<a href="swagger/v1"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 1.x (STU3)</b></button></a></p>
+						
+						<br/>
+
+						<div class="panel panel-default">
+							<div class="panel-heading">Interactive API documentation screenshot</div>
+							<div class="panel-body">
+								<img class="img-responsive" src="swagger.png"/>
+							</div>
+						</div>
+							
+					</div>
+				</div>
+			</div>
+
+			<div id="last-deploy-date"></div>
+
+<script type="text/javascript">
+
+    window.onload = function() {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE) { 
+               if (xmlhttp.status == 200) {
+                   document.getElementById('last-deploy-date').innerHTML = xmlhttp.responseText;
+               }
+            }
+        };
+
+        xmlhttp.open("GET", "last-deployed.txt", true);
+        xmlhttp.send();
+    }
+</script>
+
+		</div>
+
+	</body>
+</html>
