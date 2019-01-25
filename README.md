@@ -1,4 +1,4 @@
-<img src="nginx-html/nhs-digital-logo.png" height=72 />
+<img src="nginx/html/nhs-digital-logo.png" height=72 />
 
 # GP Connect demonstrator machine config
 
