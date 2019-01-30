@@ -1,0 +1,572 @@
+# ou=Services entries for A20047
+#   1 nhsAs entry
+#   18 nhsMhs entries
+
+dn: uniqueIdentifier=918999198993,ou=Services,o=nhs
+nhsAsACF: CNST
+nhsAsACF: DOLR
+nhsAsACF: RBAC
+nhsIDCode: A20047
+nhsDateApproved: 20151106145512
+nhsDateRequested: 20151106145347
+uniqueIdentifier: 918999198993
+nhsProductKey: 7374
+nhsApproverURP: uniqueIdentifier=283886066515,uniqueIdentifier=747394079517,
+ uid=828249614516,ou=people,o=nhs
+nhsMHSPartyKey: A20047-9198993
+nhsAsClient: A20047
+nhsRequestorURP: uniqueIdentifier=331622135514,uniqueIdentifier=747394079517
+ , uid=828249614516,ou=people,o=nhs
+objectClass: top
+objectClass: nhsAs
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:metadata
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:metadata-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:patient-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:patient-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:practitioner-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:practitioner-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:organization-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:organization-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:location-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.registerpati
+ ent-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:slot-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:appointment-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:create:appointment-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:update:appointment-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:cancel:appointment-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:patient_appoin
+ tments-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getstructure
+ drecord-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecor
+ d
+
+dn: uniqueIdentifier=S918999411018,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:patient_appoi
+ ntments-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411018
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411018
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:search:patient_appointments-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411017,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:patient-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411017
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411017
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:patient-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411016,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:create:appointment-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411016
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411016
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:create:appointment-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411015,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:practitioner-
+ 1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411015
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411015
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:search:practitioner-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411014,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:cancel:appointment-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411014
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411014
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:cancel:appointment-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411013,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getstructur
+ edrecord-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411013
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411013
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:operation:gpc.getstructuredrecord-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411012,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.registerpat
+ ient-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411012
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411012
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:operation:gpc.registerpatient-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411011,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:slot-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411011
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411011
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:search:slot-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411010,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:organization-
+ 1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411010
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411010
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:search:organization-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411009,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:appointment-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411009
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411009
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:appointment-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411008,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v0/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:metadata
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v0
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411008
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411008
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:metadata
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411007,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:metadata-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411007
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411007
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:metadata-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411006,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v0/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarereco
+ rd
+nhsMHSServiceDescription: orange.testlab.nhs.uk v0
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411006
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411006
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:operation:gpc.getrecord
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411005,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:practitioner-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411005
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411005
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:practitioner-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411004,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:location-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411004
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411004
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:location-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411003,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:update:appointment-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411003
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411003
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:update:appointment-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411002,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:patient-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411002
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411002
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:search:patient-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411001,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:read:organization-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411001
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411001
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: fhir:rest:read:organization-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+

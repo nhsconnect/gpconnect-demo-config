@@ -1,0 +1,25 @@
+# Add the containers
+
+# Adds Organisations
+dn: ou=Organisations, o=nhs
+ou: Organisations
+objectClass: top
+objectClass: organizationalUnit
+
+# Adds People
+dn: ou=People, o=nhs
+ou: People
+objectClass: top
+objectClass: organizationalUnit
+
+# Adds ReferenceData
+dn: ou=ReferenceData, o=nhs
+ou: ReferenceData
+objectClass: top
+objectClass: organizationalUnit
+
+# Adds Services
+dn: ou=Services, o=nhs
+ou: Services
+objectClass: top
+objectClass: organizationalUnit

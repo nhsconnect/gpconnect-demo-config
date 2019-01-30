@@ -1,0 +1,28 @@
+# ou=Organisations entry for A20047
+
+dn: uniqueIdentifier=A20047,ou=Organisations,o=nhs
+postalCode: LS1 4HY
+facsimileTelephoneNumber: 12345678
+nhsIDCode: A20047
+nhsOrgTypeCode: PR
+nhsParentOrgCode: 001
+telephoneNumber: 12345678
+l: GWENT"YORKSHIRE AND THE HUMBER STRATEGIC HEALTH AUTHORITY"NORTH EAST CLUS
+ TER
+nhsOrgType: GP Practice
+o: DR LEGG'S SURGERY
+nhsOrgOpenDate: 20071205
+nhsPCTCode: 001
+nhsDHSCcode: Y52
+nhsAltOrgNames: A ORG
+mail: ANUBAHV@GDG.COM
+uniqueIdentifier: A20047
+postalAddress: NHS NPFIT, TEST DATA MANAGER, PRINCES EXCHANGE, LEEDS
+nhsSHAcode: Q16
+nhsJoinDate: 20071212
+nhsCountry: England
+nhsSyntheticIndicator: 0
+objectClass: organization
+objectClass: top
+objectClass: nhsGPPractice
+
