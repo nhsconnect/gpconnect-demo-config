@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>GP Connect demonstrator</title>
+		<title>GP Connect demonstrator and developer tools</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
@@ -13,16 +13,10 @@
 
 			<h1>GP Connect demonstrator</h1>
 
-			<p>The GP Connect demonstrator is:
-			<ul>
-				<li>a provider system reference implementation of the <a href="https://nhsconnect.github.io/gpconnect/">GP Connect API</a></li>
-				<li>a consumer system demonstrator built against the reference implementation</li>
-				<li>interactive API documentation for developers to test calls to the reference implementation</li>
-			</ul>
-			</p>
-
-			<p>Note: GP Connect is an <a href="http://www.hl7.org/fhir">FHIR&reg;</a> based API for communicating with GP IT systems.  For more information on GP Connect please see the <a href="https://nhsconnect.github.io/gpconnect/">GitHub development portal</a>.</p>
+			<p>GP Connect is an <a href="http://www.hl7.org/fhir">FHIR&reg;</a> based API for communicating with GP IT systems.  For more information on GP Connect please see the <a href="https://nhsconnect.github.io/gpconnect/">GitHub development portal</a>.</p>
 			
+			<p>This site contains tools to explore and develop GP Connect consumer applications.</p> 
+
 			<div class="row">
 				<div class="col-md-6">
 					<div class="left-column-content">
@@ -49,26 +43,40 @@
 				<div class="col-md-6">
 					<div class="right-column-content">
 
-						<h2>API reference implementation</h2>
+						<h2>Developer tools</h2>
 
-						<p>This is a reference implementation of the GP Connect API in order to develop and test prospective GP Connect consumer systems, and to provide data for the Consumer system demonstrator and interactive documentation.</p>
+						<h3>API reference implementation</h3>
 
-						<p>To interoperate with the reference implementation using your own development/test environment, use the following FHIR base URLs:</p>
+						<p>This is a reference implementation of the GP Connect API simulating a GP system's GP Connect interface.</p>
+
+						<p>To interoperate with the reference implementation using your own development/test environment, use the following <a href="https://nhsconnect.github.io/gpconnect/development_general_api_guidance.html#service-root-url">FHIR service root URLs</a>:</p>
 						
-						<table class="base-urls">
+						<table class="table table-urls">
 							<tr>
 								<td><b>GP Connect 0.x (DSTU2)</b></td>
-								<td>https://orange.testlab.nhs.uk/gpconnect-demonstrator/v0/fhir</td>
+								<td><code>https://orange.testlab.nhs.uk/gpconnect-demonstrator/v0/fhir</code></td>
 							</tr>
 							<tr>
 								<td><b>GP Connect 1.x (STU3)</b></td>
-								<td>https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir</td>
+								<td><code>https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir</code></td>
 							</tr>
 						</table>
 
+						<p>Alternatively you may look the above URLs up on our <a href="#sds">Spine Directory Service</a>.</p>
+
 						<hr/>
 
-						<h2>Postman samples</h2>
+						<h3>Interactive API documentation</h3>
+
+						<p>Interactive API documentation, built using <a href="https://swagger.io/swagger-ui/">Swagger UI</a>, is available for developers to test calls against the API reference implementation using their web browser.</p>
+						
+						<p>
+							<a href="swagger/v0"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 0.x (DSTU2)</b></button></a>
+							<a href="swagger/v1"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 1.x (STU3)</b></button></a></p>
+						
+						<hr/>
+
+						<h3>Postman samples</h3>
 
 						<p>Run <a target="_blank" href="https://www.getpostman.com">Postman</a> samples to test calls against the API reference implementation.</p>
 						
@@ -94,22 +102,31 @@
 
 						<hr/>
 						
-						<h2>Interactive API documentation</h2>
+						<h3 id="sds">Spine Directory Service</h3>
 
-						<p>Interactive API documentation, built using <a href="https://swagger.io/swagger-ui/">Swagger UI</a>, is available for developers to test calls against the API reference implementation using their web browser.</p>
-						
-						<p>
-							<a href="swagger/v0"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 0.x (DSTU2)</b></button></a>
-							<a href="swagger/v1"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect 1.x (STU3)</b></button></a></p>
-						
-						<br/>
+						<p>An <a href="https://nhsconnect.github.io/gpconnect/integration_spine_directory_service.html">SDS server</a><sup>*</sup> containing the <a href="https://developer.nhs.uk/apis/spine-core-1-0/build_directory.html#services">MHS and AS</a> records needed to discover the provider reference implementation endpoints by ODS code.</p>
 
-						<div class="panel panel-default">
+						<p>Please <a href="https://developer.nhs.uk/apis/spine-core-1-0/build_endpoints_example_ssp.html">see here for instructions</a> on the LDAP queries to run in order to discover the provider reference implementation endpoints.</p>
+
+						<table class="table table-urls">
+							<tr>
+								<td><b>SDS (plaintext)</b></td>
+								<td><code>ldap://orange.testlab.nhs.uk</code></td>
+							</tr>
+							<tr>
+								<td><b>SDS (secure)</b></td>
+								<td><code>ldaps://orange.testlab.nhs.uk</code></td>
+							</tr>
+						</table>
+
+						<p><sup>*</sup><i>Please note</i>: this LDAP server contains SDS records in order to discover the GP Connect provider reference implementation ONLY, and does not contain other SDS records as would be found in Spine test or live environments.</p>
+
+<!--						<div class="panel panel-default">
 							<div class="panel-heading">Interactive API documentation screenshot</div>
 							<div class="panel-body">
 								<img class="img-responsive" src="swagger.png"/>
 							</div>
-						</div>
+						</div>-->
 							
 					</div>
 				</div>

@@ -23,6 +23,10 @@ ul, ol {
 	padding-bottom: 5px;
 }
 
+code {
+	color: black;
+}
+
 @media (min-width: 992px)
 {
 	hr {
@@ -43,13 +47,17 @@ ul, ol {
 	font-style: italic;
 }
 
-.base-urls,
-.base-urls tr,
-.base-urls tr td {
-	border: 0;
+.table-urls {
+	margin-bottom: 10px;
 }
 
-.base-urls tr td {
+.table-urls,
+.table-urls thead tr,
+.table-urls thead tr td {
+	border: none;
+}
+
+.table-urls tr td {
 	padding-right: 10px;
 }
 
