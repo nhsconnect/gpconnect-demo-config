@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8"/>
 		<title>GP Connect demonstrator and developer tools</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="styles.css">
@@ -9,7 +10,7 @@
 	<body>
 		<div class="container">
 	
-			<div class="header-logo"><img src="nhs-digital-logo.png"/></div>
+			<div class="header-logo"><img src="nhs-digital-logo.png" alt="NHS Digital logo"/></div>
 
 			<h1>GP Connect demonstrator</h1>
 
@@ -26,8 +27,8 @@
 						<p>The consumer system demonstrator illustrates how the GP Connect API might be integrated with an electronic patient record (EPR) or Trust portal system.</p>
 					
 						<p>
-							<a href="demonstrator-v0.html"><button type="button" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect API 0.x (DSTU2)</b></button></a>
-							<a href="demonstrator-v1.html"><button type="button" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect API 1.x (STU3)</b></button></a>
+							<a href="demonstrator-v0.html" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect API 0.x (DSTU2)</b></a>
+							<a href="demonstrator-v1.html" class="btn btn-primary">View the consumer system demo<br/> for <b>GP Connect API 1.x (STU3)</b></a>
 						</p>
 
 						<br/>
@@ -35,7 +36,7 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">Consumer system demonstrator screenshot</div>
 							<div class="panel-body">
-								<img class="img-responsive" src="consumer-demonstrator.png"/>
+								<img class="img-responsive" src="consumer-demonstrator.png" alt="Consumer system demonstrator screenshot"/>
 							</div>
 						</div>
 					</div>
@@ -71,8 +72,9 @@
 						<p>Interactive API documentation, built using <a href="https://swagger.io/swagger-ui/">Swagger UI</a>, is available for developers to test calls against the API reference implementation using their web browser.</p>
 						
 						<p>
-							<a href="swagger-v0.html"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect API 0.x (DSTU2)</b></button></a>
-							<a href="swagger-v1.html"><button type="button" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect API 1.x (STU3)</b></button></a></p>
+							<a href="swagger-v0.html" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect API 0.x (DSTU2)</b></a>
+							<a href="swagger-v1.html" class="btn btn-success">Try the interactive API documentat'n<br/> for <b>GP Connect API 1.x (STU3)</b></a>
+						</p>
 						
 						<hr/>
 
@@ -84,7 +86,7 @@
 						data-postman-action="collection/import"
 						data-postman-var-1="e1a5cc0a9750a1c6e469"
 						data-postman-param="env%5BPublic%20GP%20Connect%20Reference%20Implementation%5D=W3sia2V5IjoicHJvdmlkZXJVUkxfMF81X3giLCJ2YWx1ZSI6Imh0dHBzOi8vb3JhbmdlLnRlc3RsYWIubmhzLnVrL2dwY29ubmVjdC1kZW1vbnN0cmF0b3IvdjAvZmhpciIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoicHJvdmlkZXJVUkxfMV94X3giLCJ2YWx1ZSI6Imh0dHBzOi8vb3JhbmdlLnRlc3RsYWIubmhzLnVrL2dwY29ubmVjdC1kZW1vbnN0cmF0b3IvdjEvZmhpciIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoicHJlX3JlcXVlc3Rfc2NyaXB0X2dlbmVyYXRlZF9KV1QiLCJ2YWx1ZSI6ImV5SmhiR2NpT2lKdWIyNWxJaXdpZEhsd0lqb2lTbGRVSW4wLmV5SnBjM01pT2lKb2RIUndPaTh2WjNCamIyNXVaV04wTFhCdmMzUnRZVzR0ZFhKc0lpd2ljM1ZpSWpvaU1TSXNJbUYxWkNJNkltaDBkSEJ6T2k4dmIzSmhibWRsTG5SbGMzUnNZV0l1Ym1oekxuVnJMMmR3WTI5dWJtVmpkQzFrWlcxdmJuTjBjbUYwYjNJdmRqRXZabWhwY2lJc0ltVjRjQ0k2TVRVME5UUXhNakk0TXl3aWFXRjBJam94TlRRMU5ERXhPVGd6TENKeVpXRnpiMjVmWm05eVgzSmxjWFZsYzNRaU9pSmthWEpsWTNSallYSmxJaXdpY21WeGRXVnpkR1ZrWDNOamIzQmxJam9pYjNKbllXNXBlbUYwYVc5dUx5b3VjbVZoWkNJc0luSmxjWFZsYzNScGJtZGZaR1YyYVdObElqcDdJbkpsYzI5MWNtTmxWSGx3WlNJNklrUmxkbWxqWlNJc0ltbGtJam9pTVNJc0ltbGtaVzUwYVdacFpYSWlPbHQ3SW5ONWMzUmxiU0k2SWxkbFlpQkpiblJsY21aaFkyVWlMQ0oyWVd4MVpTSTZJbEJ2YzNSdFlXNGdaWGhoYlhCc1pTQmpiMjV6ZFcxbGNpSjlYU3dpYlc5a1pXd2lPaUpRYjNOMGJXRnVJaXdpZG1WeWMybHZiaUk2SWpFdU1DSjlMQ0p5WlhGMVpYTjBhVzVuWDI5eVoyRnVhWHBoZEdsdmJpSTZleUp5WlhOdmRYSmpaVlI1Y0dVaU9pSlBjbWRoYm1sNllYUnBiMjRpTENKcFpHVnVkR2xtYVdWeUlqcGJleUp6ZVhOMFpXMGlPaUpvZEhSd2N6b3ZMMlpvYVhJdWJtaHpMblZyTDBsa0wyOWtjeTF2Y21kaGJtbDZZWFJwYjI0dFkyOWtaU0lzSW5aaGJIVmxJam9pUjFCRE1EQXhJbjFkTENKdVlXMWxJam9pVUc5emRHMWhiaUJQY21kaGJtbDZZWFJwYjI0aWZTd2ljbVZ4ZFdWemRHbHVaMTl3Y21GamRHbDBhVzl1WlhJaU9uc2ljbVZ6YjNWeVkyVlVlWEJsSWpvaVVISmhZM1JwZEdsdmJtVnlJaXdpYVdRaU9pSXhJaXdpYVdSbGJuUnBabWxsY2lJNlczc2ljM2x6ZEdWdElqb2lhSFIwY0hNNkx5OW1hR2x5TG01b2N5NTFheTlKWkM5elpITXRkWE5sY2kxcFpDSXNJblpoYkhWbElqb2lSekV6TlRjNU1UTTFJbjBzZXlKemVYTjBaVzBpT2lKb2RIUndjem92TDJab2FYSXVibWh6TG5WckwwbGtMM05rY3kxeWIyeGxMWEJ5YjJacGJHVXRhV1FpTENKMllXeDFaU0k2SWpFeE1URXhNVEV4TVNKOVhTd2libUZ0WlNJNlczc2labUZ0YVd4NUlqb2lSR1Z0YjI1emRISmhkRzl5SWl3aVoybDJaVzRpT2xzaVIxQkRiMjV1WldOMElsMHNJbkJ5WldacGVDSTZXeUpOY2lKZGZWMTlmUS4iLCJlbmFibGVkIjp0cnVlfSx7ImtleSI6InBhdGllbnRfbmhzX251bWJlciIsInZhbHVlIjoiOTY1ODIxODg3MyIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoicmVxdWVzdGluZ19vcmdhbml6YXRpb25fT0RTX0NvZGUiLCJ2YWx1ZSI6IkdQQzAwMSIsImVuYWJsZWQiOnRydWV9LHsia2V5IjoicHJlX3JlcXVlc3Rfc2NyaXB0X2dlbmVyYXRlZF9zZWFyY2hfc3RhcnRfZGF0ZSIsInZhbHVlIjoiMjAxOC0xMi0yMVQxNzowNTo0OS43MDBaIiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJwcmVfcmVxdWVzdF9zY3JpcHRfZ2VuZXJhdGVkX3NlYXJjaF9lbmRfZGF0ZSIsInZhbHVlIjoiMjAxOC0xMi0yNFQxNzowNTo0OS42OTlaIiwiZW5hYmxlZCI6dHJ1ZX0seyJrZXkiOiJzc3AtZnJvbSIsInZhbHVlIjoiMjAwMDAwMDAwMzU5IiwiZGVzY3JpcHRpb24iOnsiY29udGVudCI6IiIsInR5cGUiOiJ0ZXh0L3BsYWluIn0sImVuYWJsZWQiOnRydWV9LHsia2V5Ijoic3NwLXRvIiwidmFsdWUiOiI5MTg5OTkxOTg5OTMiLCJkZXNjcmlwdGlvbiI6eyJjb250ZW50IjoiIiwidHlwZSI6InRleHQvcGxhaW4ifSwiZW5hYmxlZCI6dHJ1ZX1d"></div>
-						<script type="text/javascript">
+						<script>
 						  (function (p,o,s,t,m,a,n) {
 						    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
 						    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
@@ -123,7 +125,7 @@
 
 						<hr/>
 						
-						<h3 id="sds">Opentest documentation</h3>
+						<h3 id="opentest">Opentest documentation</h3>
 
 						<p>Documentation for the Opentest environment can be <a href="opentest.html">found here</a>.</p>
 
@@ -132,7 +134,7 @@
 <!--						<div class="panel panel-default">
 							<div class="panel-heading">Interactive API documentation screenshot</div>
 							<div class="panel-body">
-								<img class="img-responsive" src="swagger.png"/>
+								<img class="img-responsive" src="swagger.png" alt="Swagger UI screenshot"/>
 							</div>
 						</div>-->
 							
@@ -142,7 +144,7 @@
 
 			<div id="last-deploy-date"></div>
 
-<script type="text/javascript">
+<script>
 
     window.onload = function() {
         var xmlhttp = new XMLHttpRequest();
