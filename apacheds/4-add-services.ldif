@@ -1,6 +1,6 @@
 # ou=Services entries for A20047
 #   1 nhsAs entry
-#   18 nhsMhs entries
+#   19 nhsMhs entries
 
 dn: uniqueIdentifier=918999199497,ou=Services,o=nhs
 nhsAsACF: CNST
@@ -37,6 +37,8 @@ nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:update:appointment-1
 nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:cancel:appointment-1
 nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:rest:search:patient_appoin
  tments-1
+nhsAsSvcIA: urn:nhs:names:services:gpconnect:structured:fhir:rest:read:metad
+ ata-1
 nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getstructure
  drecord-1
 nhsAsSvcIA: urn:nhs:names:services:gpconnect:fhir:operation:gpc.getcarerecor
@@ -390,6 +392,36 @@ uniqueIdentifier: S918999411007
 nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
  uid=555008545108,ou=people, o=nhs
 nhsMHsIN: fhir:rest:read:metadata-1
+nhsMHSDuplicateElimination: never
+objectClass: top
+objectClass: nhsMhs
+nhsRequestorURP: SYSTEM
+
+dn: uniqueIdentifier=S918999411019,ou=Services,o=nhs
+nhsMHSEndPoint: https://orange.testlab.nhs.uk/gpconnect-demonstrator/v1/fhir
+nhsIDCode: A20047
+nhsMHSSyncReplyMode: None
+nhsDateRequested: 20140718000000
+nhsMhsSvcIA: urn:nhs:names:services:gpconnect:structured:fhir:rest:read:meta
+ data-1
+nhsMhsFQDN: orange.testlab.nhs.uk
+nhsMHSServiceDescription: orange.testlab.nhs.uk v1
+nhsProductKey: 11080
+nhsMHsSN: urn:nhs:names:services:gpconnect
+nhsContractPropertyTemplateKey: 14
+nhsMHSAckRequested: never
+nhsMHSPartyKey: A20047-9198993
+nhsMhsCPAId: S918999411019
+nhsEPInteractionType: FHIR
+nhsDateDNSApproved: 20180201115957
+nhsDateApproved: 20180201115957
+nhsMHSIsAuthenticated: none
+nhsDNSApprover: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+uniqueIdentifier: S918999411019
+nhsApproverURP: uniqueidentifier=555050304105,uniqueidentifier=555008548101,
+ uid=555008545108,ou=people, o=nhs
+nhsMHsIN: structured:fhir:rest:read:metadata-1
 nhsMHSDuplicateElimination: never
 objectClass: top
 objectClass: nhsMhs
