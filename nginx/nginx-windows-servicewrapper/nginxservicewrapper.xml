@@ -2,15 +2,15 @@
   <id>nginx</id> 
   <name>nginx</name>
   <description>nginx</description>
-  <executable>c:\nginx-1.18.0\nginx.exe</executable>
-  <logpath>c:\nginx-1.18.0\logs\</logpath> 
+  <executable>c:\nginx-1.19.2\nginx.exe</executable>
+  <logpath>c:\nginx-1.19.2\logs\</logpath> 
   <logmode>roll</logmode> 
   <depend></depend>
   <startargument>-p</startargument>
-  <startargument>c:\nginx-1.18.0</startargument>
-  <stopexecutable>c:\nginx-1.18.0\nginx.exe</stopexecutable>
+  <startargument>c:\nginx-1.19.2</startargument>
+  <stopexecutable>c:\nginx-1.19.2\nginx.exe</stopexecutable>
   <stopargument>-p</stopargument> 
-  <stopargument>c:\nginx-1.18.0</stopargument>
+  <stopargument>c:\nginx-1.19.2</stopargument>
   <stopargument>-s</stopargument> 
   <stopargument>stop</stopargument>
 </service>
