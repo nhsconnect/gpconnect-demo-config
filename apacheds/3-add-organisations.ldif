@@ -49,6 +49,7 @@ nhsSHAcode: Q11
 nhsJoinDate: 20080813
 nhsCountry: England
 nhsSyntheticIndicator: 0
-objectClass: nhsGPPractice
-objectClass: top
 objectClass: organization
+objectClass: top
+objectClass: nhsGPPractice
+
