@@ -26,3 +26,29 @@ objectClass: organization
 objectClass: top
 objectClass: nhsGPPractice
 
+# ou=Organisations entry for B82617
+
+dn: uniqueIdentifier=B82617,ou=Organisations,o=nhs
+objectClass: nhsGPPractice
+objectClass: top
+objectClass: organization
+postalAddress: COXWOLD$$$YORK$NORTH YORKSHIRE
+postalCode: YO61 4BB
+nhsDHSCcode: Y51
+nhsOrgOpenDate: 20080813
+nhsOrgSubType: OC
+nhsPCTCode: 5B8
+nhsSyntheticIndicator: 0
+nhsOrgTypeCode: PR
+nhsCountry: England
+nhsSHAcode: Q11
+uniqueIdentifier: B82617
+telephoneNumber: 01347868426
+nhsIDCode: B82617
+l: NORTH YORKSHIRE
+l: NORTH AND EAST YORKSHIRE AND NORTHERN LINCOLNSHIRE STRATEGIC HA
+l: THE NORTH MIDLANDS AND EAST PROGRAMME FOR IT (NMEPFIT)
+nhsParentOrgCode: 5B8
+o: COXWOLD SURGERY
+nhsJoinDate: 20080813
+nhsOrgType: GP Practice
