@@ -31,18 +31,18 @@ SECTION: Mandatory options
 All options in other sections are optional 
 -->  
   <!-- ID of the service. It should be unique accross the Windows system-->
-  <id>gpcdemo-v1</id>
+  <id>gpcdemo-v1-5</id>
   <!-- Display name of the service -->
-  <name>GPC Demonstrator v1</name>
+  <name>GPC Demonstrator v1.5</name>
   <!-- Service description -->
-  <description>GP Connect Demonstrator v1</description>
+  <description>GP Connect Demonstrator v1.5</description>
   
   <env name="GPC_NAME" value="gpconnect1" />
-  <env name="GPC_CONFIG_DIR" value="C:\gpcdemo-v1\files\config" />
+  <env name="GPC_CONFIG_DIR" value="C:\gpcdemo-v1-5\files\config" />
   
   <!-- Path to the executable, which should be started -->
   <executable>java</executable>
-  <arguments>-jar C:\gpcdemo-v1\gpconnect-demonstrator-api.war --server.port=9441 --server.port.http=9091 --config.path=%GPC_CONFIG_DIR%\ --server.ssl.key-store=%GPC_CONFIG_DIR%\server.jks --server.ssl.key-store-password=password --server.ssl.trust-store=%GPC_CONFIG_DIR%\server.jks --server.ssl.trust-store-password=password --server.ssl.client-auth=want --clientAuth=false --datasource.schema=%GPC_NAME%</arguments>
+  <arguments>-jar C:\gpcdemo-v1-5\gpconnect-demonstrator-api.war --server.port=5001 --server.port.http=5000 --config.path=%GPC_CONFIG_DIR%\ --server.ssl.key-store=%GPC_CONFIG_DIR%\server.jks --server.ssl.key-store-password=password --server.ssl.trust-store=%GPC_CONFIG_DIR%\server.jks --server.ssl.trust-store-password=password --server.ssl.client-auth=want --clientAuth=false --datasource.schema=%GPC_NAME%</arguments>
 
 <!--
 SECTION: Installation
