@@ -1,6 +1,6 @@
 net stop "gpcdemo-v1-5"
 
-set JENKINS_WORKSPACE=C:\Program Files (x86)\Jenkins\workspace\gpconnect-demonstrator-v1
+set JENKINS_WORKSPACE=C:\Program Files (x86)\Jenkins\workspace\gpconnect-demonstrator-v1-5
 set GPC_V1_5_HOME=C:\gpcdemo-v1-5
 
 xcopy "%JENKINS_WORKSPACE%\config" "%GPC_V1_5_HOME%\files\config" /s /y /EXCLUDE:%GPC_V1_5_HOME%\files\deploy\exclusions.txt
