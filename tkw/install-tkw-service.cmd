@@ -1,9 +1,9 @@
 @echo off
 rem
-rem use nssm to install/edit the GP Connect demonstrator runnignas a docker service
+rem use nssm to install/edit the TKW running as a  service
 rem
 set NSSM=c:\nssm-2.24\win64\nssm
-set SERVICE=GPC.TKW.For.Demo.v1.5.0
+set SERVICE=gpctkw-1-5
 
 if "%1" == "D" (
 	rem remove old service
@@ -14,7 +14,7 @@ if "%1" == "D" (
 	%NSSM% install %SERVICE% %PT%
 ) else if "%1" == "U" (
 	rem update parameters
-	%NSSM% set %SERVICE% DisplayName GPC TKW For Demonstrator 1.5.0
+	%NSSM% set %SERVICE% DisplayName GPC TKW For Demonstrator v1.5
 	%NSSM% set %SERVICE% AppStdout "C:\TKW_ROOT\logs\stdout_TKW-For-Demo.1.5.0.log"
 	%NSSM% set %SERVICE% AppStderr "C:\TKW_ROOT\logs\stderr_TKW-For-Demo.1.5.0.log"
 	%NSSM% set %SERVICE% AppStdoutCreationDisposition 4
