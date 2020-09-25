@@ -8,3 +8,4 @@
 8. Run 'install-tkw-service.cmd I' then when the NSSM GUI opens close it
 9. Run 'install-tkw-service.cmd I' again, this time it will install the service
 10. Run 'install-tkw-service.cmd U' to update the service parameters
+11. Run 'net start gpctkw-1-5' to start the TKW service
