@@ -1,0 +1,17 @@
+# ou=Organisations entry for X26
+
+dn: uniqueIdentifier=X26,ou=Organisations,o=nhs
+objectClass: organization
+objectClass: top
+objectClass: nhsOrg
+l: England
+nhsIDCode: X26
+nhsOrgType: Executive Agency
+nhsOrgTypeCode: EA
+o: HEALTH AND SOCIAL CARE INFORMATION CENTRE
+postalAddress: 1 TREVELYAN SQUARE$$$LEEDS$WEST YORKSHIRE
+postalCode: LS1 6AE
+uniqueIdentifier: X26
+nhsCountry: England
+nhsOrgOpenDate: 20130827
+nhsSyntheticIndicator: 0
