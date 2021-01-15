@@ -11,6 +11,7 @@ nhsDateApproved: 20151106145512
 nhsDateRequested: 20151106145347
 uniqueIdentifier: 918999198738
 nhsProductKey: 7374
+nhsProductName: GP System 2
 nhsApproverURP: uniqueIdentifier=283886066515,uniqueIdentifier=747394079517,
  uid=828249614516,ou=people,o=nhs
 nhsMHSPartyKey: B82617-9198738
