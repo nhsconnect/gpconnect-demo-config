@@ -127,12 +127,18 @@ data-postman-param="env%5BPublic%20GP%20Connect%20Reference%20Implementation%5D=
 
 						<p>An <a href="https://developer.nhs.uk/apis/gpconnect/integration_spine_directory_service.html">SDS server</a> containing the MHS and AS records needed to discover the provider reference implementation endpoints by ODS code.</p>
 
-						<p>Please <a href="https://developer.nhs.uk/apis/gpconnect/integration_spine_directory_service.html">see here for instructions</a> on the LDAP queries to run in order to discover the provider reference implementation endpoints.</p>
+						<p>Please see the documentation links below (either LDAP or FHIR) for instructions on the SDS queries to run in order to discover the provider reference implementation endpoints.</p>
 
 						<table class="table table-urls">
 							<tr>
-								<td><strong>SDS (secure)</strong></td>
+								<td><strong>SDS (LDAP secure)</strong></td>
 								<td><code>ldaps://orange.testlab.nhs.uk</code></td>
+								<td><a href="https://developer.nhs.uk/apis/gpconnect/integration_spine_directory_service.html">See LDAP documentation</a></td>
+							</tr>
+							<tr>
+								<td><strong>SDS (FHIR base URL)</strong></td>
+								<td><code>https://orange.testlab.nhs.uk/spine-directory/FHIR/R4/</code></td>
+								<td>See FHIR documentation (TBC)</td>
 							</tr>
 						</table>
 
