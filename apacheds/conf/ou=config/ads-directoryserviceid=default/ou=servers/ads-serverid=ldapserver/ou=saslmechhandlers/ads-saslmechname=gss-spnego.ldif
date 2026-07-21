@@ -1,0 +1,15 @@
+dn: ads-saslMechName=GSS-SPNEGO,ou=saslMechHandlers,ads-serverId=ldapServer,ou=s
+ ervers,ads-directoryServiceId=default,ou=config
+ads-ntlmmechprovider: com.foo.Bar
+ads-saslmechname: GSS-SPNEGO
+entryCSN: 20200629093525.218000Z#000000#000#000000
+ads-saslmechclassname: org.apache.directory.server.ldap.handlers.sasl.ntlm.NtlmM
+ echanismHandler
+objectclass: ads-saslMechHandler
+objectclass: ads-base
+objectclass: top
+createTimestamp: 20200629093525.218Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 80524f76-a17f-46f7-be73-25a8e7dfda91
+entryParentId: 29ee8c4e-3f4d-42fa-a8a4-4d07e128a50f

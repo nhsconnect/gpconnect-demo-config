@@ -1,0 +1,16 @@
+{
+    "spineProxy": "",
+    "ASID": "918999198993",
+    "practices": [
+        {
+            "id": "1",
+            "odsCode": "A20047",
+            "name": "Dr Legg's Surgery",
+            "interactionIds": ["*"],
+            "endpointURL": "fhir",
+            "apiEndpointURL": "api",
+            "ASID": "918999198993",
+			"orgType": "GP Practice"
+        }
+    ]
+}

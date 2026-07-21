@@ -1,0 +1,10 @@
+dn: ou=authenticators,ads-interceptorId=authenticationInterceptor,ou=interceptor
+ s,ads-directoryServiceId=default,ou=config
+entryCSN: 20200629093524.922000Z#000002#000#000000
+ou: authenticators
+objectclass: top
+objectclass: organizationalUnit
+createTimestamp: 20200629093524.922Z
+creatorsName: uid=admin,ou=system
+entryUUID: 2afaa8a5-bdcb-44fa-9a58-39c274badaf9
+entryParentId: 5449985f-a34a-4b28-9ac3-4f802e40c7b9

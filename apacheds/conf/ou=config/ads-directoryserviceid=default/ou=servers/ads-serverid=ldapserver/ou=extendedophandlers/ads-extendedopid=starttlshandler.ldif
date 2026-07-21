@@ -1,0 +1,14 @@
+dn: ads-extendedOpId=starttlshandler,ou=extendedOpHandlers,ads-serverId=ldapServ
+ er,ou=servers,ads-directoryServiceId=default,ou=config
+ads-extendedopid: starttlshandler
+entryCSN: 20200629093525.199000Z#000000#000#000000
+objectclass: ads-extendedOpHandler
+objectclass: ads-base
+objectclass: top
+createTimestamp: 20200629093525.199Z
+creatorsName: uid=admin,ou=system
+ads-extendedophandlerclass: org.apache.directory.server.ldap.handlers.extended.S
+ tartTlsHandler
+ads-enabled: TRUE
+entryUUID: 37512362-16bc-44b4-ab08-e6cd8296eede
+entryParentId: 39f4aeff-81e2-4cd2-9d82-908cdc0d9533

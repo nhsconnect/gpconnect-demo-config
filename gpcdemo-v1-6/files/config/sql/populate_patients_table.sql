@@ -1,0 +1,56 @@
+USE gpconnect1_5;
+LOCK TABLES patients WRITE;
+INSERT INTO patients
+	   (id,title,first_name,last_name,address_1,address_2,address_3,address_4,address_5,postcode,phone,date_of_birth,gender,nhs_number,pas_number,department_id,gp_id,lastUpdated,sensitive_flag,multiple_birth,deceased,marital_status,managing_organization,registration_start, registration_status)
+VALUES
+(1,'MR','Lucien','SAMUAL','','268 PIPER KNOWLE ROAD','','STOCKTON-ON-TEES','CLEVELAND','TS19 8JP','01454587554','1938-12-11','Male',9690937278,000001,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(2,'MR','Horace','SKELLY','','3 BOWESFIELD CRESCENT','','STOCKTON-ON-TEES','','TS18 3BL','01454587554','1925-04-21','Male',9690937286,000002,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(3,'MR','Samuel','HESLBY','','10 MANOR DRIVE','STILLINGTON','STOCKTON-ON-TEES','CLEVELAND','TS21 1JG','02123636563','1936-03-17','Male',9690937294,000003,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(4,'MR','West','CRANK','','2 DALBY CLOSE','','BILLINGHAM','CLEVELAND','TS22 5RW','01454587554','1925-07-04','Male',9690937308,000004,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(5,'MRS','Rosa','LOBB','','164 HIGH NEWHAM ROAD','','STOCKTON-ON-TEES','CLEVELAND','TS19 8NS','01454587554','1928-03-10','Female',9690937375,000005,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(6,'MS','Angela','DOULBY','','1 AYSGARTH ROAD','','STOCKTON-ON-TEES','CLEVELAND','TS18 4JG','01454587554','1953-06-14','Female',9690937383,000006,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(7,'MRS','Mina','BAILEY','','75 JUNCTION ROAD','','STOCKTON-ON-TEES','CLEVELAND','TS20 1PU','01454587554','1953-06-30','Female',9690937391,000007,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(8,'MRS','Winnie','PRING','','66 ROTHWELL CRESCENT','','STOCKTON-ON-TEES','CLEVELAND','TS19 9AP','01454587554','1929-10-20','Female',9690937405,000008,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(9,'MRS','Anita','CLAY','','1 MONMOUTH DRIVE','EAGLESCLIFFE','STOCKTON-ON-TEES','CLEVELAND','TS16 9HU','01454587554','2000-09-09','Female',9690938533,000009,1,1,'2018-03-23 12:00:00',TRUE,FALSE,NULL,'S','7','1962-07-13','A'),
+(10,'MS','Tania','REEVES','','10 ROWAN ROAD','','STOCKTON-ON-TEES','CLEVELAND','TS19 0EZ','01454587554','1960-03-28','Female',9690938541,000010,1,1,'2018-03-23 12:00:00',TRUE,FALSE,NULL,'S','7','1962-07-13','A'),
+(11,'MRS','Alexi','HORN','','19 HARTBURN LANE','','STOCKTON-ON-TEES','CLEVELAND','TS18 4EP','01454587554','1978-11-28','Female',9690938622,000011,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(12,'MISS','Elsa','LEARY','RIGBY HOUSE','THE MEADOWINGS','','YARM','CLEVELAND','TS15 9QQ','01454587554','1965-12-17','Female',9690938614,000012,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(13,'MS','Cecile','BESTON','','3 SALTRAM CLOSE','INGLEBY BARWICK','STOCKTON-ON-TEES','CLEVELAND','TS17 0XF','01454587554','2001-03-16','Female',9690938096,000013,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(15,'MRS','Dora','McCAIN','','2 ABBEY CLOSE','','STOCKTON-ON-TEES','CLEVELAND','TS19 7SP','01454587554','1972-09-16','Female',9690938576,000015,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(16,'MRS','Sibyl','CRAINE','','1 LANGHAM WALK','','STOCKTON-ON-TEES','CLEVELAND','TS19 7NX','01454587554','1983-11-24','Female',9690938118,000016,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(17,'MRS','Doris','BOURKE','','11 SKIRLAW ROAD','','YARM','CLEVELAND','TS15 9DW','01454587554','1984-06-09','Female',9690938126,000017,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(18,'MR','James','ROONEY','','8 AUSTEN CLOSE','','BILLINGHAM','CLEVELAND','TS23 3GT','01454587554','1968-02-03','Male',9690938681,000018,1,1,'2018-03-23 12:00:00',FALSE,FALSE,'1993-02-17','S','7','1962-07-13','A'),
+(20,'MS','Lori','GILDEA','','3 MELFORD GROVE','INGLEBY BARWICK','STOCKTON-ON-TEES','CLEVELAND','TS17 0YF','01454587554','1983-07-06','Female',9690938134,000020,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','A'),
+(21,'MISS','Eve','BUCK','','10 WOLSEY DRIVE','','STOCKTON-ON-TEES','CLEVELAND','TS20 1SY','01454587554','1999-04-13','Female',9690938142,000021,1,1,'2018-03-23 12:00:00',FALSE,FALSE,NULL,'S','7','1962-07-13','N');
+/* re added by perl script since not derived from PDS */
+INSERT INTO patients
+	   (id,title,first_name,last_name,address_1,address_2,address_3,postcode,phone,date_of_birth,gender,nhs_number,pas_number,department_id,gp_id,lastUpdated,sensitive_flag,multiple_birth,deceased,marital_status,managing_organization,registration_start)
+VALUES
+(14,'MS','Georgina','HOPLEY','103 ENDERBY ROAD','','SCUNTHORPE','DN17 2JL','01454587554','1927-05-15','Female',9476718943,000014,1,3,'2016-07-25 12:00:00',FALSE,FALSE,NULL,'S','1','1935-11-05'),
+(19,'PNA','PNA','PNA','PNA','PNA','','PNA','PNA','2017-05-20','Male',9866105660,000019,1,3,'2017-05-23 12:00:00',FALSE,FALSE,NULL,'M','1','2017-05-13');
+UNLOCK TABLES;
+/* mobile required for a specific supplier */
+INSERT INTO patient_telecoms
+ (patientId,system,usetype,value)
+VALUES
+ (2,'PHONE','MOBILE','+447401254880');
+
+SET @MonthOffset = (SELECT TIMESTAMPDIFF(MONTH, '2018-10-01', now()));
+
+UPDATE medication_statements
+SET dateAsserted = DATE_ADD(dateAsserted, INTERVAL @MonthOffset MONTH), 
+    lastIssueDate = DATE_ADD(lastIssueDate, INTERVAL @MonthOffset MONTH),
+    startDate = DATE_ADD(startDate, INTERVAL @MonthOffset MONTH),
+    endDate = DATE_ADD(endDate, INTERVAL @MonthOffset MONTH),
+    dosageLastChanged = DATE_ADD(dosageLastChanged, INTERVAL @MonthOffset MONTH)
+WHERE 1=1;
+
+UPDATE medication_requests
+SET authoredOn = DATE_ADD(authoredOn, INTERVAL @MonthOffset MONTH),
+    dispenseRequestStartDate = DATE_ADD(dispenseRequestStartDate, INTERVAL @MonthOffset MONTH),
+    dispenseRequestEndDate = DATE_ADD(dispenseRequestEndDate, INTERVAL @MonthOffset MONTH),
+    authorisationExpiryDate = DATE_ADD(authorisationExpiryDate, INTERVAL @MonthOffset MONTH),
+    statusReasonDate = DATE_ADD(statusReasonDate, INTERVAL @MonthOffset MONTH),
+    lastUpdated = DATE_ADD(lastUpdated, INTERVAL @MonthOffset MONTH) 
+WHERE 1=1;
+
