@@ -1,0 +1,17 @@
+version: 1
+dn: ads-indexAttributeId=ou,ou=indexes,ads-partitionId=system,ou=partitions,ads-
+ directoryServiceId=default,ou=config
+ads-indexhasreverse: FALSE
+entryCSN: 20200629115630.528000Z#000000#001#000000
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+createtimestamp: 20200629093525.076Z
+creatorsname: uid=admin,ou=system
+modifyTimestamp: 20200629115630.527Z
+ads-indexattributeid: ou
+modifiersName: 
+ads-enabled: TRUE
+entryuuid: cb3732d8-b00c-480c-bc88-663215594e2a
+entryParentId: 54d0ffe6-b945-46cf-8cb6-fc3c221c5393

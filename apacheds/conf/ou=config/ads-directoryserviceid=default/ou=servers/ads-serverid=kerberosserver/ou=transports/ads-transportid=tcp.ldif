@@ -1,0 +1,16 @@
+dn: ads-transportid=tcp,ou=transports,ads-serverId=kerberosServer,ou=servers,ads
+ -directoryServiceId=default,ou=config
+entryCSN: 20200629093525.181000Z#000000#000#000000
+ads-transportid: tcp
+objectclass: ads-transport
+objectclass: ads-base
+objectclass: ads-tcpTransport
+objectclass: top
+createTimestamp: 20200629093525.181Z
+ads-systemport: 60088
+ads-transportaddress: 0.0.0.0
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 8dfaf7f9-b30b-4c1c-8887-2d5367d7f629
+ads-transportnbthreads: 4
+entryParentId: d81d5c3b-315c-477b-8d06-e18057355cf6

@@ -1,0 +1,27 @@
+version: 1
+dn: ads-pwdId=default,ou=passwordPolicies,ads-interceptorId=authenticationInterc
+ eptor,ou=interceptors,ads-directoryServiceId=default,ou=config
+entryCSN: 20200629115630.570000Z#000000#001#000000
+ads-pwdlockoutduration: 0
+ads-pwdattribute: userPassword
+creatorsname: uid=admin,ou=system
+ads-pwdlockout: TRUE
+ads-pwdid: default
+modifyTimestamp: 20200629115630.570Z
+ads-pwdfailurecountinterval: 30
+ads-pwdmaxfailure: 5
+modifiersName: 
+ads-pwdcheckquality: 1
+ads-enabled: TRUE
+entryuuid: 5a346495-919f-41cb-aed3-cbc66b14995e
+ads-pwdinhistory: 5
+ads-pwdvalidator: org.apache.directory.server.core.api.authn.ppolicy.DefaultPass
+ wordValidator
+ads-pwdminlength: 5
+ads-pwdgraceauthnlimit: 5
+ads-pwdexpirewarning: 600
+createtimestamp: 20200629093524.976Z
+objectclass: top
+objectclass: ads-base
+objectclass: ads-passwordPolicy
+entryParentId: a85f186b-da5e-4a32-934b-cb16d9977783

@@ -1,0 +1,10 @@
+dn: ou=extendedOpHandlers,ads-serverId=ldapServer,ou=servers,ads-directoryServic
+ eId=default,ou=config
+entryCSN: 20200629093525.197000Z#000000#000#000000
+ou: extendedOpHandlers
+objectclass: organizationalUnit
+objectclass: top
+createTimestamp: 20200629093525.197Z
+creatorsName: uid=admin,ou=system
+entryUUID: 39f4aeff-81e2-4cd2-9d82-908cdc0d9533
+entryParentId: 42d94ba2-98ef-40d4-b11b-cd321a6cdb39

@@ -1,0 +1,15 @@
+dn: ads-interceptorId=operationalAttributeInterceptor,ou=interceptors,ads-direct
+ oryServiceId=default,ou=config
+entryCSN: 20200629093525.007000Z#000003#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20200629093525.007Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: 9d00c391-886f-4f0f-8c43-6067aeda7f77
+ads-interceptorclassname: org.apache.directory.server.core.operational.Operation
+ alAttributeInterceptor
+ads-interceptororder: 11
+ads-interceptorid: operationalAttributeInterceptor
+entryParentId: 10de0c84-2019-428e-8bea-bdc4b372b791

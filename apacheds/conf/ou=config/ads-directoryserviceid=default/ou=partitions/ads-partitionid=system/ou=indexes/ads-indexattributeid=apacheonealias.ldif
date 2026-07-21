@@ -1,0 +1,17 @@
+version: 1
+dn: ads-indexAttributeId=apacheOneAlias,ou=indexes,ads-partitionId=system,ou=par
+ titions,ads-directoryServiceId=default,ou=config
+ads-indexhasreverse: FALSE
+entryCSN: 20200629115630.543000Z#000000#001#000000
+objectclass: ads-index
+objectclass: ads-jdbmIndex
+objectclass: ads-base
+objectclass: top
+createtimestamp: 20200629093525.070Z
+creatorsname: uid=admin,ou=system
+modifyTimestamp: 20200629115630.543Z
+ads-indexattributeid: apacheOneAlias
+modifiersName: 
+ads-enabled: TRUE
+entryuuid: 5c358e4f-ca3a-4ad3-aa90-c9d35fbb3bf7
+entryParentId: 54d0ffe6-b945-46cf-8cb6-fc3c221c5393

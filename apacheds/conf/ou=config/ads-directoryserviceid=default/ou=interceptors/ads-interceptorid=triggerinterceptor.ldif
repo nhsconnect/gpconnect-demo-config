@@ -1,0 +1,15 @@
+dn: ads-interceptorId=triggerInterceptor,ou=interceptors,ads-directoryServiceId=
+ default,ou=config
+entryCSN: 20200629093525.038000Z#000001#000#000000
+objectclass: top
+objectclass: ads-base
+objectclass: ads-interceptor
+createTimestamp: 20200629093525.038Z
+creatorsName: uid=admin,ou=system
+ads-enabled: TRUE
+entryUUID: f24c960a-7cd1-470d-95ab-7e98846178a8
+ads-interceptorclassname: org.apache.directory.server.core.trigger.TriggerInterc
+ eptor
+ads-interceptororder: 15
+ads-interceptorid: triggerInterceptor
+entryParentId: 10de0c84-2019-428e-8bea-bdc4b372b791
