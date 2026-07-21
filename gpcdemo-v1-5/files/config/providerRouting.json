@@ -1,0 +1,16 @@
+{
+    "spineProxy": "",
+    "ASID": "918999198738",
+    "practices": [
+        {
+            "id": "1",
+            "odsCode": "B82617",
+            "name": "COXWOLD SURGERY",
+            "interactionIds": ["*"],
+            "endpointURL": "fhir",
+            "apiEndpointURL": "api",
+            "ASID": "918999198738",
+			"orgType": "GP Practice"
+        }
+    ]
+}
